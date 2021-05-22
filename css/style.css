@@ -263,7 +263,7 @@ html {
     width: 20px;
     position: absolute;
     bottom: 0;
-    right: 10px;
+    right: 0px;
 }
 .aside .logo::after {
     content: "";
@@ -271,7 +271,7 @@ html {
     width: 20px;
     position: absolute;
     top: 0;
-    left: 10px;
+    left: 0px;
 }
 .aside .nav-toggler {
     height: 40px;
