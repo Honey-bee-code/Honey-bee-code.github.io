@@ -1,9 +1,9 @@
-.aside .logo a::after{
+.aside .logo::after{
     /* border-radius: 10px 0; */
     border-top: 4px solid #fa5b0f;
     border-left: 4px solid #fa5b0f;
 }
-.aside .logo a::before{
+.aside .logo::before{
     /* border-radius: 10px 0; */
     border-bottom: 4px solid #fa5b0f;
     border-right: 4px solid #fa5b0f;

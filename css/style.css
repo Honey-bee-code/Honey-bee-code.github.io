@@ -248,6 +248,7 @@ html {
 }
 .aside .logo {
     padding: 20px 0;
+    position: relative;
 }
 .aside .logo a {
     text-align: center;
@@ -255,9 +256,8 @@ html {
     color: #302e4d;
     font-family: "Lobster", cursive;
     display: inline-block;
-    position: relative;
 }
-.aside .logo a::before {
+.aside .logo::before {
     content: "";
     height: 20px;
     width: 20px;
@@ -265,7 +265,7 @@ html {
     bottom: 0;
     right: 10px;
 }
-.aside .logo a::after {
+.aside .logo::after {
     content: "";
     height: 20px;
     width: 20px;
