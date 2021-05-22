@@ -21,9 +21,9 @@ function setColor(color) {
     }
 }
 
-const selectedColor = localStorage.getItem("selected-color");
-if (!selectedColor) {
-    setColor("green");
+let selectedColor = localStorage.getItem("selected-color");
+if ((selectedColor === null)) {
+    selectedColor = "green";
 }
 setColor(selectedColor);
 
