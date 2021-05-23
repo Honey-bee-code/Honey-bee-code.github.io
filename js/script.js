@@ -163,3 +163,17 @@ hireMeBtn.addEventListener("click", function () {
     showSection(this);
     updateNav(this);
 });
+
+// typing animation script
+const typed1 = new Typed(".typing-1", {
+    strings: ["Calligrapher", "Web Developer", "Freelancer", "Programmer", "Youtuber", "Teacher"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+});
+const typed2 = new Typed(".typing-2", {
+    strings: ["Calligrapher", "Web Developer", "Freelancer", "Programmer", "Youtuber", "Teacher"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+});
