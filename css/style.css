@@ -772,6 +772,7 @@ html {
 }
 .galery .galery-item .galery-item-inner .galery-img img {
     width: 100%;
+    margin-bottom: -5px;
 }
 .galery .galery-item .galery-item-inner .galery-info {
     position: absolute;

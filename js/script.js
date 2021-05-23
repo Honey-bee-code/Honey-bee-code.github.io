@@ -179,19 +179,19 @@ const typed2 = new Typed(".typing-2", {
 });
 
 // scroll reveal
-// document.querySelector(".services-reveal").addEventListener("click", function () {
-//     ScrollReveal({
-//         origin: "right",
-//         distance: "50px",
-//         duration: 4000,
-//         reset: true,
-//     }).reveal(".services-item", { interval: 10 });
-// });
-// document.querySelector(".portfolio-reveal").addEventListener("click", function () {
-//     ScrollReveal({
-//         origin: "right",
-//         distance: "50px",
-//         duration: 4000,
-//         reset: true,
-//     }).reveal(".portfolio-item ", { interval: 10 });
-// });
+document.querySelector(".services-reveal").addEventListener("click", function () {
+    ScrollReveal({
+        origin: "right",
+        distance: "50px",
+        duration: 4000,
+        reset: true,
+    }).reveal(".services-item", { interval: 10 });
+});
+document.querySelector(".portfolio-reveal").addEventListener("click", function () {
+    ScrollReveal({
+        origin: "right",
+        distance: "50px",
+        duration: 4000,
+        reset: true,
+    }).reveal(".portfolio-item ", { interval: 10 });
+});
